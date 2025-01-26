@@ -1,0 +1,186 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav{
+  font-family: 'Times New Roman';
+  height: 70px;
+  width: 100%;
+}
+
+.logo {
+  font-size: 25px;
+  padding: 0 100px;
+}
+.nav-bar{
+  position: fixed;
+  z-index: 1000;
+}
+.nav-bar{
+  margin-top: 10px;
+  font-family: calibri;
+  padding: 0 20px;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-one{
+  font-family:  'Times New Roman';
+  text-decoration: underline;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+li span{
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.SHOP{
+  color: red;
+}
+.icons{
+  justify-content: space-between;
+  word-spacing: 20px;
+}
+.fa-solid {
+  color: rgb(0, 0, 0);
+}
+.ACCOUNT{
+  word-spacing: 0;
+  color: black;
+}
+.icons a{
+  text-decoration: none;
+}
+.living-room img{
+  height: auto;
+  width: 100%;
+  display: block;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+.living-room{
+  position: relative;
+  display: inline-block;
+  height: auto;
+  width: 100%;
+}
+.living-room :hover{
+  transform: translate(0px -8px);
+}
+.button-group{
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  gap: 10px;
+}
+button{
+  background-color: gray; 
+  margin-top: 10px;
+  color: white ;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  gap: 20px;
+  align-items: end;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+button:hover{
+  transform: translate(0px, -2px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.Home-sofa{
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 10px;
+}
+.sofa{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.img-sofa{
+  width: 30%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+.img-sofa :hover{
+  transform: translate(0px, -8px);
+}
+.img-sofa img{
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+h4{
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
+.shop-1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.img-shop{
+  width: 30%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+.img-shop :hover{
+  transform: translate(0, -8px);
+}
+.img-shop a{
+  text-decoration: none;
+  color: white;
+}
+.img-shop button{
+  background-color: rgb(37, 211, 102);
+}
+.shop-2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0;
+}
+.Manza{
+  color: grey;
+  text-decoration: line-through;
+}
